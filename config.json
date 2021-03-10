@@ -1,0 +1,12 @@
+{
+    "symbols": "SPY,QQQ,DIA",
+    "interval": 600000,
+    "discord": {
+        "username": "discord-market-poller",
+        "webhookID": "",
+        "webhookToken": ""
+    },
+    "twelvedata": {
+        "apikey": ""
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "discord-market-poller",
+  "version": "1.0.0",
+  "description": "A simple app polling stock market prices and posting to discord webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "lint": "./node_modules/.bin/eslint .",
+    "lint:fix": "./node_modules/.bin/eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hsueki794@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.1",
+    "pauseable": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
